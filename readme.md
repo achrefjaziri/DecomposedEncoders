@@ -27,7 +27,6 @@ The current default is set to 2 GPUs.
 
 
 We also provide a bash script to train all encoders presented in the paper. 
-Additionally, all pretrained encoders can be downloaded from here:
 
 
 ## Evaluation ##
