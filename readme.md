@@ -1,8 +1,8 @@
 
-This is the code for the paper: "On Decomposed Encoder Design with Bio-inspired Inductive Biases and its Implications on Classifier Performance"
+This is the code for the paper: Representation Learning in a Decomposed Encoder Design for Bio-inspired Hebbian Learning published in ECCV 2024 Workshop Proceedings.
 
-This code is an extension of the following works: 
-https://github.com/EPFL-LCN/pub-illing2021-neurips and 
+This code is an extension of the following work: 
+https://github.com/EPFL-LCN/pub-illing2021-neurips  
 
 ## Setup ##
 
@@ -33,13 +33,13 @@ We also provide a bash script to train all encoders presented in the paper.
 
 To train a classifier and evaluate the classification performance for a single encoder model use the following command:
 ```
-
+python ..
 ```
 
 For a multi-encoder models use the following command:
 
 ```
-
+python ..
 ```
 
 On the CODEBRIM dataset, we included some tests on perturbed images to replicate the experiments use the test_perturbations.py and test_perturbations_multi.py scripts with the same parameters.
