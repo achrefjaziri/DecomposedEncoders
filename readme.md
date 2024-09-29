@@ -23,7 +23,7 @@ python train_enc.py --port port_number --save_dir workspace/logs_dtcwt --batch_s
 For more details about the training parameters check this document.  
 
 Port_number needs to be specified since we are using the pytorch distributed training module. This allows us to use multiple GPUs to train our models. 
-The current default is set to 2 GPUs. In our experiments, training each encoder takes around 2 days using two Nvidia-A100 GPUs.  
+The current default is set to 2 GPUs. 
 
 
 We also provide a bash script to train all encoders presented in the paper. 
